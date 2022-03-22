@@ -1,7 +1,7 @@
+import calculation
 import verify
 import time
 import sys
-import calculation
 
 
 def slowprint(s):
@@ -57,6 +57,7 @@ def prompt_basic():
     print(user_ans)
 
     # Q4
+    answer = ''
     print('\n\nQuestion 4')
     while not verify.isnumber(answer.strip()):
         time.sleep(1)
@@ -70,6 +71,7 @@ def prompt_basic():
     print(user_ans)
 
     # Q5
+    answer = ''
     print('\n\nQuestion 5')
     while not verify.isword(answer.strip()):
         time.sleep(1)
@@ -83,6 +85,7 @@ def prompt_basic():
     print(user_ans)
 
     # Q6
+    answer = ''
     print('\n\nQuestion 6')
     while not verify.isnumber(answer.strip()):
         time.sleep(1)
@@ -90,13 +93,14 @@ def prompt_basic():
         print('The combined age of Archibald and Charlie is 37')
         print('The combined age of Bertie and Charlie is 52')
         print('How old is Charlie ?')
-        answer = input('Enter a number:')
+        answer = input('\nEnter a number:')
         verify.errormsg(verify.isnumber(answer.strip()), answer)
 
     user_ans.append(answer.upper())
     print(user_ans)
 
     # Q7
+    answer = ''
     print('\n\nQuestion 7')
     while not verify.isword(answer.strip()):
         time.sleep(1)
@@ -110,6 +114,7 @@ def prompt_basic():
     print(user_ans)
 
     # Q8
+    answer = ''
     print('\n\nQuestion 8')
     while not verify.isword(answer.strip()):
         time.sleep(1)
@@ -123,6 +128,7 @@ def prompt_basic():
     print(user_ans)
 
     # Q9
+    answer = ''
     print('\n\nQuestion 9')
     while not verify.isnumber(answer.strip()):
         time.sleep(1)
@@ -134,6 +140,7 @@ def prompt_basic():
     print(user_ans)
 
     # Q10
+    answer = ''
     print('\n\nQuestion 10')
     while not verify.isnumber(answer.strip()):
         time.sleep(1)
@@ -196,6 +203,7 @@ def prompt_complex():
     print(user_ans)
 
     # Q4
+    answer = 'abc'
     print('\n\nQuestion 4')
     while not verify.isnumber(answer.strip()):
         time.sleep(1)
@@ -209,6 +217,7 @@ def prompt_complex():
     print(user_ans)
 
     # Q5
+    answer = ''
     print('\n\nQuestion 5')
     while not verify.isword(answer.strip()):
         time.sleep(1)
@@ -222,6 +231,7 @@ def prompt_complex():
     print(user_ans)
 
     # Q6
+    answer = 'abc'
     print('\n\nQuestion 6')
     while not verify.isnumber(answer.strip()):
         time.sleep(1)
@@ -229,13 +239,14 @@ def prompt_complex():
         print('The combined age of Archibald and Charlie is 37')
         print('The combined age of Bertie and Charlie is 52')
         print('How old is Charlie ?')
-        answer = input('Enter a number:')
+        answer = input('\nEnter a number:')
         verify.errormsg(verify.isnumber(answer.strip()), answer)
 
     user_ans.append(answer.upper())
     print(user_ans)
 
     # Q7
+    answer = ''
     print('\n\nQuestion 7')
     while not verify.isword(answer.strip()):
         time.sleep(1)
@@ -249,6 +260,7 @@ def prompt_complex():
     print(user_ans)
 
     # Q8
+    answer = ''
     print('\n\nQuestion 8')
     while not verify.isword(answer.strip()):
         time.sleep(1)
@@ -262,6 +274,7 @@ def prompt_complex():
     print(user_ans)
 
     # Q9
+    answer = 'abc'
     print('\n\nQuestion 9')
     while not verify.isnumber(answer.strip()):
         time.sleep(1)
@@ -273,6 +286,7 @@ def prompt_complex():
     print(user_ans)
 
     # Q10
+    answer = 'abc'
     print('\n\nQuestion 10')
     while not verify.isnumber(answer.strip()):
         time.sleep(1)
@@ -300,6 +314,7 @@ def prompt_complex():
     print(user_ans)
 
     # Q12
+    answer = ''
     print('\n\nQuestion 12')
     while not verify.isword(answer.strip()):
         time.sleep(1)
@@ -313,6 +328,7 @@ def prompt_complex():
     print(user_ans)
 
     # Q13
+    answer = 'abc'
     print('\n\nQuestion 13')
     while not verify.isnumber(answer.strip()):
         time.sleep(1)
@@ -326,6 +342,7 @@ def prompt_complex():
     print(user_ans)
 
     # Q14 ( check code )
+    answer = 'abc'
     print('\n\nQuestion 14')
     while not verify.isnumber(answer.strip()):
         time.sleep(1)
@@ -340,6 +357,7 @@ def prompt_complex():
     print(user_ans)
 
     # Q15
+    answer = 'abc'
     print('\n\nQuestion 15')
     while not verify.isnumber(answer.strip()):
         time.sleep(1)
@@ -351,6 +369,7 @@ def prompt_complex():
     print(user_ans)
 
     # Q16
+    answer = 'abc'
     print('\n\nQuestion 16')
     while not verify.isnumber(answer.strip()):
         time.sleep(1)
@@ -363,6 +382,7 @@ def prompt_complex():
     print(user_ans)
 
     # Q17
+    answer = 'abc'
     print('\n\nQuestion 17')
     while not verify.isnumber(answer.strip()):
         time.sleep(1)
@@ -376,6 +396,7 @@ def prompt_complex():
     print(user_ans)
 
     # Q18
+    answer = 'abc'
     print('\n\nQuestion 18')
     while not verify.isnumber(answer.strip()):
         time.sleep(1)
@@ -386,10 +407,8 @@ def prompt_complex():
     user_ans.append(answer.upper())
     print(user_ans)
 
-    score = calculation.basic_score(user_ans)
-    print(score)
-
     # Q19
+    answer = ''
     print('\n\nQuestion 19')
     while not verify.isword(answer.strip()):
         time.sleep(1)
@@ -403,6 +422,7 @@ def prompt_complex():
     print(user_ans)
 
     # Q20
+    answer = ''
     print('\n\nQuestion 20')
     while not verify.isword(answer.strip()):
         time.sleep(1)
@@ -416,4 +436,8 @@ def prompt_complex():
     print(user_ans)
 
     # Transfer collected data back to main()
-    return user_ans
+    # return user_ans
+    calculation.complex_score(user_ans)
+
+
+prompt_complex()
