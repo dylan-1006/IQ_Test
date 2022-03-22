@@ -44,4 +44,4 @@ def isnumber(answer):
 
 def errormsg(verify, answer):
     if verify is False and answer != '':
-        slowprint('Incorrect input type \n\n')
+        slowprint('Incorrect input type, please try again. \n\n')
