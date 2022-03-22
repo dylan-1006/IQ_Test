@@ -317,7 +317,7 @@ def prompt_complex():
 
     user_ans.append(answer.upper())
 
-    # Q14 ( check code )
+    # Q14
     answer = 'abc'
     print('\n\nQuestion 14')
     while not verify.isnumber(answer.strip()):
