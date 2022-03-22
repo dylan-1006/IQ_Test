@@ -9,7 +9,7 @@ def slowprint(s):
         time.sleep(1. / 10)
 
 
-def abcd(answer):
+def ismcq(answer):
     verify = False
     if answer.upper() == 'A' or answer.upper() == 'B' or answer.upper() == 'C' or answer.upper() == 'D':
         verify = True
