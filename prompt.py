@@ -1,4 +1,3 @@
-import calculation
 import verify
 import time
 import sys
@@ -26,7 +25,6 @@ def prompt_basic():
         verify.errormsg(verify.ismcq(answer.strip()), answer)
 
     user_ans.append(answer.upper())
-    print(user_ans)
 
     # Q2
     answer = ''
@@ -40,7 +38,6 @@ def prompt_basic():
         verify.errormsg(verify.ismcq(answer.strip()), answer)
 
     user_ans.append(answer.upper())
-    print(user_ans)
 
     # Q3
     answer = ''
@@ -54,10 +51,9 @@ def prompt_basic():
         verify.errormsg(verify.ismcq(answer.strip()), answer)
 
     user_ans.append(answer.upper())
-    print(user_ans)
 
     # Q4
-    answer = ''
+    answer = 'abc'
     print('\n\nQuestion 4')
     while not verify.isnumber(answer.strip()):
         time.sleep(1)
@@ -68,7 +64,6 @@ def prompt_basic():
         verify.errormsg(verify.isnumber(answer.strip()), answer)
 
     user_ans.append(answer.upper())
-    print(user_ans)
 
     # Q5
     answer = ''
@@ -82,10 +77,9 @@ def prompt_basic():
         verify.errormsg(verify.isword(answer.strip()), answer)
 
     user_ans.append(answer.upper())
-    print(user_ans)
 
     # Q6
-    answer = ''
+    answer = 'abc'
     print('\n\nQuestion 6')
     while not verify.isnumber(answer.strip()):
         time.sleep(1)
@@ -97,7 +91,6 @@ def prompt_basic():
         verify.errormsg(verify.isnumber(answer.strip()), answer)
 
     user_ans.append(answer.upper())
-    print(user_ans)
 
     # Q7
     answer = ''
@@ -111,7 +104,6 @@ def prompt_basic():
         verify.errormsg(verify.isword(answer.strip()), answer)
 
     user_ans.append(answer.upper())
-    print(user_ans)
 
     # Q8
     answer = ''
@@ -125,10 +117,9 @@ def prompt_basic():
         verify.errormsg(verify.isword(answer.strip()), answer)
 
     user_ans.append(answer.upper())
-    print(user_ans)
 
     # Q9
-    answer = ''
+    answer = 'abc'
     print('\n\nQuestion 9')
     while not verify.isnumber(answer.strip()):
         time.sleep(1)
@@ -137,10 +128,9 @@ def prompt_basic():
         verify.errormsg(verify.isnumber(answer.strip()), answer)
 
     user_ans.append(answer.upper())
-    print(user_ans)
 
     # Q10
-    answer = ''
+    answer = 'abc'
     print('\n\nQuestion 10')
     while not verify.isnumber(answer.strip()):
         time.sleep(1)
@@ -151,7 +141,6 @@ def prompt_basic():
         verify.errormsg(verify.isnumber(answer.strip()), answer)
 
     user_ans.append(answer.upper())
-    print(user_ans)
 
     # Transfer collected data back to main()
     return user_ans
@@ -172,7 +161,6 @@ def prompt_complex():
         verify.errormsg(verify.ismcq(answer.strip()), answer)
 
     user_ans.append(answer.upper())
-    print(user_ans)
 
     # Q2
     answer = ''
@@ -186,7 +174,6 @@ def prompt_complex():
         verify.errormsg(verify.ismcq(answer.strip()), answer)
 
     user_ans.append(answer.upper())
-    print(user_ans)
 
     # Q3
     answer = ''
@@ -200,7 +187,6 @@ def prompt_complex():
         verify.errormsg(verify.ismcq(answer.strip()), answer)
 
     user_ans.append(answer.upper())
-    print(user_ans)
 
     # Q4
     answer = 'abc'
@@ -214,7 +200,6 @@ def prompt_complex():
         verify.errormsg(verify.isnumber(answer.strip()), answer)
 
     user_ans.append(answer.upper())
-    print(user_ans)
 
     # Q5
     answer = ''
@@ -228,7 +213,6 @@ def prompt_complex():
         verify.errormsg(verify.isword(answer.strip()), answer)
 
     user_ans.append(answer.upper())
-    print(user_ans)
 
     # Q6
     answer = 'abc'
@@ -243,7 +227,6 @@ def prompt_complex():
         verify.errormsg(verify.isnumber(answer.strip()), answer)
 
     user_ans.append(answer.upper())
-    print(user_ans)
 
     # Q7
     answer = ''
@@ -257,7 +240,6 @@ def prompt_complex():
         verify.errormsg(verify.isword(answer.strip()), answer)
 
     user_ans.append(answer.upper())
-    print(user_ans)
 
     # Q8
     answer = ''
@@ -271,7 +253,6 @@ def prompt_complex():
         verify.errormsg(verify.isword(answer.strip()), answer)
 
     user_ans.append(answer.upper())
-    print(user_ans)
 
     # Q9
     answer = 'abc'
@@ -283,7 +264,6 @@ def prompt_complex():
         verify.errormsg(verify.isnumber(answer.strip()), answer)
 
     user_ans.append(answer.upper())
-    print(user_ans)
 
     # Q10
     answer = 'abc'
@@ -297,7 +277,6 @@ def prompt_complex():
         verify.errormsg(verify.isnumber(answer.strip()), answer)
 
     user_ans.append(answer.upper())
-    print(user_ans)
 
     # Q11
     answer = ''
@@ -311,7 +290,6 @@ def prompt_complex():
         verify.errormsg(verify.ismcq(answer.strip()), answer)
 
     user_ans.append(answer.upper())
-    print(user_ans)
 
     # Q12
     answer = ''
@@ -325,7 +303,6 @@ def prompt_complex():
         verify.errormsg(verify.isword(answer.strip()), answer)
 
     user_ans.append(answer.upper())
-    print(user_ans)
 
     # Q13
     answer = 'abc'
@@ -339,7 +316,6 @@ def prompt_complex():
         verify.errormsg(verify.isnumber(answer.strip()), answer)
 
     user_ans.append(answer.upper())
-    print(user_ans)
 
     # Q14 ( check code )
     answer = 'abc'
@@ -354,7 +330,6 @@ def prompt_complex():
         verify.errormsg(verify.isnumber(answer.strip()), answer)
 
     user_ans.append(answer.upper())
-    print(user_ans)
 
     # Q15
     answer = 'abc'
@@ -366,20 +341,18 @@ def prompt_complex():
         verify.errormsg(verify.isnumber(answer.strip()), answer)
 
     user_ans.append(answer.upper())
-    print(user_ans)
 
     # Q16
     answer = 'abc'
     print('\n\nQuestion 16')
     while not verify.isnumber(answer.strip()):
         time.sleep(1)
-        print("2 * 7 * 16 – (8 – 7) – (9  3) = x")
+        print("2 * 7 * 16 – (8 – 7) – (9 / 3) = x")
         print('Simplify and find the value of x')
         answer = input('Enter a number:')
         verify.errormsg(verify.isnumber(answer.strip()), answer)
 
     user_ans.append(answer.upper())
-    print(user_ans)
 
     # Q17
     answer = 'abc'
@@ -393,7 +366,6 @@ def prompt_complex():
         verify.errormsg(verify.isnumber(answer.strip()), answer)
 
     user_ans.append(answer.upper())
-    print(user_ans)
 
     # Q18
     answer = 'abc'
@@ -405,7 +377,6 @@ def prompt_complex():
         verify.errormsg(verify.isnumber(answer.strip()), answer)
 
     user_ans.append(answer.upper())
-    print(user_ans)
 
     # Q19
     answer = ''
@@ -419,7 +390,6 @@ def prompt_complex():
         verify.errormsg(verify.isword(answer.strip()), answer)
 
     user_ans.append(answer.upper())
-    print(user_ans)
 
     # Q20
     answer = ''
@@ -433,11 +403,6 @@ def prompt_complex():
         verify.errormsg(verify.isword(answer.strip()), answer)
 
     user_ans.append(answer.upper())
-    print(user_ans)
 
     # Transfer collected data back to main()
-    # return user_ans
-    calculation.complex_score(user_ans)
-
-
-prompt_complex()
+    return user_ans

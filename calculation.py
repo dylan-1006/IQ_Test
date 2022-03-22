@@ -7,7 +7,6 @@ def basic_score(user_ans):
     for answer in user_ans:
         if answer == CORRECT_ANS[position]:
             score += 1
-            print(score)
 
         position += 1
 
@@ -23,7 +22,6 @@ def complex_score(user_ans):
     for answer in user_ans:
         if answer == CORRECT_ANS[position]:
             score += 1
-            print(score)
 
         position += 1
 
