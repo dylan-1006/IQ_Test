@@ -12,6 +12,7 @@ def slowprint(s):
 
 def prompt_basic():
     user_ans = []
+    print('\nAnswer all 10 questions. \n')
 
     # Q1
     answer = ''
@@ -148,6 +149,7 @@ def prompt_basic():
 
 def prompt_complex():
     user_ans = []
+    print('\nAnswer all 20 questions. \n')
 
     # Q1
     answer = ''
