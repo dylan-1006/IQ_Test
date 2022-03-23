@@ -33,7 +33,7 @@ def isword(answer):
 
 def isnumber(answer):
     verify = False
-    if answer.isalpha() is False:
+    if answer.isalpha() is False and answer.isdigit() is True:
         verify = True
 
     else:
