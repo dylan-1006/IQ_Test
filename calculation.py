@@ -10,7 +10,7 @@ def basic_score(user_ans):
 
         position += 1
 
-    score = score * 2
+    score = score * 4
 
     return score
 
@@ -27,5 +27,7 @@ def complex_score(user_ans):
             score += 1
 
         position += 1
+
+    score = score * 2
 
     return score
