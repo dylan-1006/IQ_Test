@@ -3,8 +3,8 @@ import time
 
 
 def slowprint(s):
-    for c in s + '\n':
-        sys.stdout.write(c)
+    for char in s + '\n':
+        sys.stdout.write(char)
         sys.stdout.flush()
         time.sleep(1. / 10)
 
