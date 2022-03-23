@@ -33,5 +33,4 @@ def iq_percentile(iq):
         return '10th to 20th'
 
     else:
-
         return '0th to 9th'
