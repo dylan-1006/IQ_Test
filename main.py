@@ -21,7 +21,7 @@ def initialise():
     mode_verify = False
 
     while mode_verify is False:
-        mode = input('\nPlease select the desired mode for this IQ Test [B or C]:')
+        mode = input('\nPlease select the desired mode for this IQ Test [B (Basic) or C (Complex)]:')
         mode = mode.strip()
         if mode.upper() == 'B':
             mode_verify = True
