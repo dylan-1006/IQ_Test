@@ -363,7 +363,7 @@ def prompt_complex():
         time.sleep(1)
         print("What number should replace the question mark ?")
         slowprint(
-            "\n100\n98.5\n95.5\n91\n85\n?\n")
+            "\n4936:67\n2581:95\n1664:?\n")
         answer = input('Enter a number:')
         verify.errormsg(verify.isnumber(answer.strip()), answer)
 
